@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/chaos430/lemon-demo/issues"
   },
-  "homepage": "https://github.com/chaos430/lemon-demo#readme"
+  "homepage": "https://github.com/chaos430/lemon-demo#readme",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
 }
