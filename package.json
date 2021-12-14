@@ -1,0 +1,23 @@
+{
+  "name": "lemon",
+  "version": "0.0.1",
+  "description": "ui框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaos430/lemon-demo.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "jun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaos430/lemon-demo/issues"
+  },
+  "homepage": "https://github.com/chaos430/lemon-demo#readme"
+}
