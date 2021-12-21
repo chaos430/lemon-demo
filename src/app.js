@@ -4,5 +4,11 @@ import Icon from './icon'
 Vue.component('l-button',Button)
 Vue.component('l-icon',Icon)
 new Vue({
-    el:'#app'
+    el:'#app',
+    data:{
+        loading1:false,
+        loading2:false,
+        loading3:false
+
+    }
 })
