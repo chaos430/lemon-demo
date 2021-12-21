@@ -1,6 +1,7 @@
 <template>
     <button class="l-button" :class="{[`icon-${iconPosition}`]:true}">
-      <l-icon class="icon" v-if="icon" :name="icon"></l-icon>
+      <l-icon v-if="icon" :name="icon" class="icon"></l-icon>
+      <l-icon name="loading" class="loading"></l-icon>
       <div class="content">
         <slot></slot>
       </div>
@@ -31,6 +32,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
 .l-button {
   height: var(--button-height);
   padding: 0 1em;
@@ -69,6 +78,9 @@ export default {
     > .content{
       order:1;
     }
+  }
+  .loading{
+    animation: spin 1s infinite;
   }
 }
 
