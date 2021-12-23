@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name:'lemonButtonGroup',
   mounted() {
     for (let node of this.$el.children){
       if(node.nodeName.toLowerCase() !== 'button'){

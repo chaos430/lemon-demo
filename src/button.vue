@@ -13,6 +13,7 @@
 <script>
 import Icon from './icon'
 export default {
+  name:'lemonButton',
   components:{
     'l-icon':Icon
   },
