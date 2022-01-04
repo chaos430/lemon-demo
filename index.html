@@ -44,7 +44,8 @@
         </l-button-group>
     </div>
 <div class="box">
-    <l-input value="张三"></l-input>
+    <l-input v-model="message"></l-input>
+    <p>{{message}}</p>
     <l-input value="李四" disabled></l-input>
     <l-input value="王五" readonly></l-input>
 </div>
